@@ -15,14 +15,13 @@ Report:
 3. Employee Insights III: Uncovered managerial impact and performance metrics. Charts on turnover rates, year-over-year changes, and salary comparison from 2014 to 2019 offer a strategic view of employee performance and financial trends.
 
 Key Insights:
-> Predominantly a workforce in their 60s.
-> 55% males, 45% females.
-> Most hires in 2014; 85.3% still active.
-> 36 left due to performance issues, 25 due to salary expectations.
-> Satisfaction closely tied to performance, with only 3 individuals receiving low scores post-Performance Improvement Plans.
-> To mitigate departures to higher-paying jobs, it's recommended to re-evaluate compensation based on performance. A strategic move to retain talent and foster employee satisfaction.
-> Employee satisfaction tends to rise with higher annual salaries and total compensation but surprisingly decreases with higher bonus amounts. Balancing these factors is crucial for maintaining a satisfied workforce.
-Key Insights :
+* Predominantly a workforce in their 60s.
+* 55% males, 45% females.
+* Most hires in 2014; 85.3% still active.
+* 36 left due to performance issues, 25 due to salary expectations.
+* Satisfaction closely tied to performance, with only 3 individuals receiving low scores post-Performance Improvement Plans.
+* To mitigate departures to higher-paying jobs, it's recommended to re-evaluate compensation based on performance. A strategic move to retain talent and foster employee satisfaction.
+* Employee satisfaction tends to rise with higher annual salaries and total compensation but surprisingly decreases with higher bonus amounts. Balancing these factors is crucial for maintaining a satisfied workforce.
 
 1. Demographics and Tenure: The workforce predominantly comprises employees in their 60s, with 55% males and 45% females. Most were hired in 2014, and 85.3% remain active.
 2. Turnover and Satisfaction: Performance issues led 36 employees to leave, followed by salary expectations for 25. Satisfaction is closely tied to performance, with only 3 individuals receiving low scores after Performance Improvement Plans.
