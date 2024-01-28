@@ -23,19 +23,18 @@ Turnover Rate =
 
 5. YoY Salary Change: The percentage change in salaries from year to year.
 YoY_Annual_Salary_Percentage_Change = 
-VAR CurrentYearSalary = SUM('HR_Gender Diversity & Equality'[Annual Salary ($)])
+VAR CurrentYearSalary = SUM('HR_Gender Diversity & Equality'[Annual Salary])
 VAR PreviousYearSalary = CALCULATE(
     SUM('HR_Gender Diversity & Equality'[Annual Salary ($)]),
     SAMEPERIODLASTYEAR('HR_Gender Diversity & Equality'[Hire Date].[Date]))
 VAR PercentageChange = 
-    IF(
-        ISBLANK(CurrentYearSalary) || ISBLANK(PreviousYearSalary) || PreviousYearSalary = 0,
+    IF( ISBLANK(CurrentYearSalary) || ISBLANK(PreviousYearSalary) || PreviousYearSalary = 0,
         BLANK(),
         DIVIDE(CurrentYearSalary - PreviousYearSalary, PreviousYearSalary))
 RETURN
     FORMAT(PercentageChange, "0.00%")
 
-6. Active Employees Count = 
+7. Active Employees Count = 
     COUNTROWS(FILTER('HR_Gender Diversity & Equality', 'HR_Gender Diversity & Equality'[Status] = "Active"))
 
 Report: 
