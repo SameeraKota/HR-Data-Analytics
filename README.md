@@ -2,7 +2,8 @@
 
 Happy to share the outcome of my recent data analysis journey. Despite the completion of the FP20 Analytics Challenge, I couldn't resist diving deeper into the dataset available on their official website. Utilizing DAX in Power BI, I've distilled some key insights.
 
-Key Metrics:
+## Key Metrics:
+
 1. Attrition Rate: How many employees we're losing.
 Attrition Rate = 
    100 * COUNTROWS(FILTER('HR_Gender Diversity & Equality', 'HR_Gender Diversity & Equality'[Status] = "Resignation" || 'HR_Gender Diversity & Equality'[Status] = "HR Termination")) / COUNTROWS('HR_Gender Diversity & Equality')
@@ -37,12 +38,14 @@ RETURN
 7. Active Employees Count = 
     COUNTROWS(FILTER('HR_Gender Diversity & Equality', 'HR_Gender Diversity & Equality'[Status] = "Active"))
 
-Report: 
+## Report: 
+
 1. Employee Insights I: Explored the organizational landscape, unveiling gender distribution, job roles, and branch-wise representation. Delving into diversity and workforce distribution offers valuable insights into the fabric of the company.
 2. Employee Insights II: Navigated the financial and employee satisfaction terrain. This page provides a comprehensive view of total compensation, annual salary insights, and a breakdown of leave reasons. A holistic perspective on employee well-being and financial aspects.
 3. Employee Insights III: Uncovered managerial impact and performance metrics. Charts on turnover rates, year-over-year changes, and salary comparison from 2014 to 2019 offer a strategic view of employee performance and financial trends.
 
-Key Insights:
+## Key Insights:
+
 * Predominantly a workforce in their 60s.
 * 55% males, 45% females.
 * Most hires in 2014; 85.3% still active.
